@@ -197,11 +197,6 @@ body {
 .hero .mask-container {
   position: absolute;
   /* background-color: salmon; */
-  inset: 0;
-  -webkit-mask-image: url(../img/hero-bg.svg);
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: cover;
-  -webkit-mask-position: center;
 }
 
 .hero .content {
