@@ -198,10 +198,10 @@ body {
   position: absolute;
   /* background-color: salmon; */
   inset: 0;
-  -webkit-mask-image: url(../img/hero-bg.svg);
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: cover;
-  -webkit-mask-position: center;
+  mask-image: url(../img/coffe-beans.svg);
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  mask-position: center;
 }
 
 .hero .content {
@@ -276,12 +276,12 @@ body {
   flex: 1 1 45rem;
 }
 
-.about .row .aboout-img img {
+.about .row .about-img img {
   width: 100%;
-  -webkit-mask-image: url("img/splash.svg");
-  -webkit-mask-size: 50%;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
+  mask-image: url("/img/menu/splash.svg");
+  mask-size: 50%;
+  mask-repeat: no-repeat;
+  mask-position: center;
 }
 
 .about .row .content {
@@ -400,12 +400,6 @@ body {
 .products .product-price {
   font-size: 1.3rem;
   font-weight: bold;
-}
-
-.products .product-price span {
-  text-decoration: line-through;
-  font-weight: lighter;
-  font-size: 1rem;
 }
 
 /* Contact Section */
